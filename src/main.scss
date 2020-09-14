@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+$menu-font: 'Montserrat', sans-serif;
+$grey-color: #262222;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html { 
+    height: 100%; 
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+body { min-height: 100%; }
+
+.main {
+    background-image: url("https://images.unsplash.com/photo-1579871494447-9811cf80d66c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80");
+    background-size: cover;
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    background-color: $grey-color;
+    font-family: $menu-font;
+
+    #akira {
+        margin: 1rem 2rem;
+        font-size: 2rem;
+        font-weight: bold;
+        color: red;
+        display:flex;
+        align-items: center;
+    }
+
+    #sushi {
+        color: white;
+        font-size: 2rem;
+        margin-left: .5rem;
+    }
+
+    .links {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-evenly;
+        align-items: center;
+
+        li {
+            margin: 0rem 2rem;
+            color: white;
+            cursor: pointer;
+        }
+    }
+}
+
+.center-container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .5);
+    height: 100vh;
+    width: 100vw;
+    font-family: $menu-font;
+    font-weight: bold;
+
+    .header {
+        font-size: 5rem;
+    }
+
+    .lower-text {
+        font-size: 2rem;
+    }
+}
+
+// About Page Content
+
+.about-container {
+    display: grid;
+    height: 50%;
+    width: 50%;
+    border: 1px solid red;
+    border-radius: 1rem;
+    background-color: $grey-color;
+    opacity: 90%;
+    justify-items: center;
+    padding: 1rem;
+    overflow: hidden;
+
+    .about-text-content {
+        padding: 1rem;
+        overflow-y: scroll;
+    }
+}
+
+.tab-header {
+    color: red;
+}
+
