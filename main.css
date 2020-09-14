@@ -80,8 +80,64 @@ body {
   .about-container .about-text-content {
     padding: 1rem;
     overflow-y: scroll; }
+  .about-container .tab-header {
+    color: red; }
 
-.tab-header {
-  color: red; }
+.menu-container {
+  display: grid;
+  height: 50%;
+  width: 50%;
+  border: 1px solid red;
+  border-radius: 1rem;
+  background-color: #262222;
+  opacity: 90%;
+  justify-items: center;
+  padding: 1rem;
+  overflow: hidden; }
+  .menu-container .menu-text-content {
+    padding: 1rem;
+    overflow-y: scroll; }
+  .menu-container .tab-header {
+    color: red; }
+
+.hours-container {
+  display: grid;
+  height: 50%;
+  width: 50%;
+  border: 1px solid red;
+  border-radius: 1rem;
+  background-color: #262222;
+  opacity: 90%;
+  justify-items: center;
+  padding: 1rem;
+  overflow: hidden; }
+  .hours-container .hours-text-content {
+    padding: 1rem;
+    overflow-y: scroll; }
+  .hours-container .tab-header {
+    color: red; }
+  .hours-container p {
+    font-size: 3rem;
+    text-align: center; }
+
+.contact-container {
+  display: grid;
+  height: 50%;
+  width: 50%;
+  border: 1px solid red;
+  border-radius: 1rem;
+  background-color: #262222;
+  opacity: 90%;
+  justify-items: center;
+  padding: 1rem;
+  overflow: hidden; }
+  .contact-container .contact-text-content {
+    padding: 1rem;
+    overflow-y: scroll; }
+  .contact-container .tab-header {
+    color: red; }
+  .contact-container p {
+    font-size: 3rem;
+    text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
