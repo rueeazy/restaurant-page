@@ -62,7 +62,7 @@ const pageLoad = (() => {
         let lowerText = document.createElement('div');
         lowerText.classList.add('lower-text');
         lowerText.id = "lower-text";
-        lowerText.innerText = "Now Open For Pick Up!";
+        lowerText.innerText = "Beer. Wine. Sake.";
         centerContainer.appendChild(lowerText);
     }
 
@@ -83,7 +83,7 @@ const pageLoad = (() => {
         let lowerText = document.createElement('div');
         lowerText.classList.add('lower-text');
         lowerText.id = "lower-text";
-        lowerText.innerText = "Now Open For Pick Up!";
+        lowerText.innerText = "Beer. Wine. Sake.";
         centerContainer.appendChild(lowerText);
     }
 

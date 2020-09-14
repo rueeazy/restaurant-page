@@ -86,9 +86,7 @@ body { min-height: 100%; }
     }
 }
 
-// About Page Content
-
-.about-container {
+@mixin reset-container {
     display: grid;
     height: 50%;
     width: 50%;
@@ -99,14 +97,71 @@ body { min-height: 100%; }
     justify-items: center;
     padding: 1rem;
     overflow: hidden;
+}
+
+// About Page Content
+.about-container {
+    @include reset-container;
 
     .about-text-content {
         padding: 1rem;
         overflow-y: scroll;
     }
+
+    .tab-header {
+        color: red;
+    }
 }
 
-.tab-header {
-    color: red;
+// Menu Page Content
+.menu-container {
+    @include reset-container;
+
+    .menu-text-content {
+        padding: 1rem;
+        overflow-y: scroll;
+    }
+
+    .tab-header {
+        color: red;
+    }
+}
+
+// Hours Page Content
+.hours-container {
+    @include reset-container;
+
+    .hours-text-content {
+        padding: 1rem;
+        overflow-y: scroll;
+    }
+
+    .tab-header {
+        color: red;
+    }
+
+    p {
+        font-size: 3rem;
+        text-align: center;
+    }
+}
+
+// Contact Page Content
+.contact-container {
+    @include reset-container;
+
+    .contact-text-content {
+        padding: 1rem;
+        overflow-y: scroll;
+    }
+
+    .tab-header {
+        color: red;
+    }
+
+    p {
+        font-size: 3rem;
+        text-align: center;
+    }
 }
 
